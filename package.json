@@ -1,0 +1,21 @@
+{
+  "name": "twitter.js-guide",
+  "version": "0.0.1-dev",
+  "description": "The official guide for twitter.js library",
+  "scripts": {
+    "serve": "vuepress dev src",
+    "build": "vuepress build src"
+  },
+  "keywords": [
+    "api",
+    "tjs",
+    "twitter",
+    "twitter.js"
+  ],
+  "author": "Shubham Parihar <shubhamparihar391@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^4.4.3",
+    "vuepress-vite": "^2.0.0-beta.26"
+  }
+}
