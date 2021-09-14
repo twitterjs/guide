@@ -1,7 +1,7 @@
 ---
 home: true
 title: Home
-heroImage: /images/logo.png
+heroImage: /branding/logo.png
 actions:
   - text: Get Started
     link: ./getting-started.md
