@@ -3,7 +3,7 @@
   "version": "0.0.1-dev",
   "description": "The official guide for twitter.js library",
   "scripts": {
-    "serve": "vuepress dev src",
+    "dev": "vuepress dev src",
     "build": "vuepress build src"
   },
   "keywords": [
