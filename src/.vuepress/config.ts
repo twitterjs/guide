@@ -25,13 +25,35 @@ export default defineUserConfig<DefaultThemeOptions, ViteBundlerOptions>({
         link: '/'
       },
       {
-        text: 'API',
+        text: 'Tutorial',
+        link: '/tutorial/installation'
+      },
+      {
+        text: 'How-To',
+        link: '/how-to/README.md'
+      },
+      {
+        text: 'Reference',
         link: 'https://twitter.js.org'
       },
       {
         text: 'Discord',
         link: 'https://discord.gg/f5Pefuskx4'
       }
-    ]
+    ],
+    sidebar: {
+      '/tutorial/': [
+        {
+          text: 'Tutorial',
+          children: ['/tutorial/installation']
+        }
+      ],
+      '/how-to/': [
+        {
+          text: 'How-To',
+          children: ['/how-to/README.md']
+        }
+      ]
+    }
   }
 })

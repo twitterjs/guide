@@ -4,10 +4,10 @@ title: Home
 heroImage: /branding/logo.png
 actions:
   - text: Introduction
-    link: ./introduction.md
+    link: /introduction.md
     type: secondary
   - text: Get Started
-    link: ./getting-started.md
+    link: /tutorial/installation.md
     type: primary
 features:
   - title: Super Easy
