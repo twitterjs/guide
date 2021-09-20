@@ -14,6 +14,10 @@ export default defineUserConfig<DefaultThemeOptions, ViteBundlerOptions>({
     ['meta', { property: 'og:image', content: '/branding/logo.png' }],
     ['meta', { property: 'og:locale', content: 'en_UK' }],
     ['meta', { name: 'theme-color', content: '#f7df1e' }],
+    ['meta', { name: 'twitter:title', content: 'Twitter.js Guide'}],
+    ['meta', { name: 'twitter:description', content: 'The official guide for twitter.js library'}],
+    ['meta', { name: 'twitter:image', content: '/branding/logo.png'}],
+    ['meta', { name: 'twitter:card', content: 'summary'}],
   ],
   themeConfig: {
     repo: 'https://github.com/twitterjs/twitter.js',
