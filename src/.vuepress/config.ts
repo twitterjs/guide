@@ -30,7 +30,7 @@ export default defineUserConfig<DefaultThemeOptions, ViteBundlerOptions>({
       },
       {
         text: 'Tutorial',
-        link: '/tutorial/installation'
+        link: '/tutorial/README.md'
       },
       {
         text: 'How-To',
@@ -47,16 +47,10 @@ export default defineUserConfig<DefaultThemeOptions, ViteBundlerOptions>({
     ],
     sidebar: {
       '/tutorial/': [
-        {
-          text: 'Tutorial',
-          children: ['/tutorial/installation']
-        }
+        '/tutorial/installation'
       ],
       '/how-to/': [
-        {
-          text: 'How-To',
-          children: ['/how-to/README.md']
-        }
+        '/how-to/fetch-single-user'
       ]
     }
   }
