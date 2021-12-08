@@ -1,0 +1,3 @@
+# Tutorial
+
+- [Installation](/tutorial/installation)
