@@ -49,7 +49,8 @@ export default defineUserConfig<DefaultThemeOptions, ViteBundlerOptions>({
         '/tutorial/installation'
       ],
       '/how-to/': [
-        '/how-to/fetch-single-user'
+        '/how-to/fetch-single-user',
+        '/how-to/fetch-single-tweet',
       ]
     }
   }
