@@ -8,7 +8,7 @@
     "build": "vuepress build src"
   },
   "devDependencies": {
-    "typescript": "^4.5.4",
+    "typescript": "^4.5.5",
     "vuepress-vite": "^2.0.0-beta.30"
   },
   "keywords": [
