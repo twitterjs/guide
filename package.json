@@ -9,7 +9,7 @@
   },
   "devDependencies": {
     "typescript": "^4.5.4",
-    "vuepress-vite": "^2.0.0-beta.30"
+    "vuepress-vite": "^2.0.0-beta.35"
   },
   "keywords": [
     "api",
