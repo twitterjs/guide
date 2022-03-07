@@ -1,12 +1,10 @@
-import { defineUserConfig } from 'vuepress-vite';
 import { description } from '../../package.json';
-import type { DefaultThemeOptions, ViteBundlerOptions} from 'vuepress-vite';
+import { defineUserConfig, type DefaultThemeOptions, type ViteBundlerOptions } from 'vuepress';
 
 export default defineUserConfig<DefaultThemeOptions, ViteBundlerOptions>({
   lang: 'en-UK',
   title: 'Twitter.js Guide',
   description: description,
-  bundler: '@vuepress/vite',
   head: [
     ['meta', { property: 'og:title', content: 'Twitter.js Guide' }],
     ['meta', { property: 'og:description', content: description }],
