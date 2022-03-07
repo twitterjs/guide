@@ -34,13 +34,13 @@ npm install twitter.js
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node --experimental-specifier-resolution=node index.js"
+    "start": "node index.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "twitter.js": "^0.4.0"
+    "twitter.js": "^0.13.0"
   },
   "type": "module"
 }
