@@ -21,6 +21,7 @@ export default defineUserConfig<DefaultThemeOptions, ViteBundlerOptions>({
     repo: 'https://github.com/twitterjs/twitter.js',
     docsRepo: 'https://github.com/twitterjs/guide',
     docsDir: 'src',
+    contributors: false,
     navbar: [
       {
         text: 'Home',

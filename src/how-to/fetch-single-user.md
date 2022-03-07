@@ -7,9 +7,7 @@ There are multiple ways to fetch a [`User`](https://twitter.js.org/classes/User.
 You can use the [`UserManager#fetchByUsername`](https://twitter.js.org/classes/UserManager.html#fetchByUsername) method to fetch a user by its username:
 
 ```js:no-line-numbers
-const user = await client.users.fetchByUsername({
-  username: 'iShiibi'
-});
+const user = await client.users.fetchByUsername('iShiibi');
 ```
 
 ### Fetch by user id
@@ -17,16 +15,13 @@ const user = await client.users.fetchByUsername({
 You can use the [`UserManager#fetch`](https://twitter.js.org/classes/UserManager.html#fetch) method to fetch a user by its id:
 
 ```js:no-line-numbers
-const user = await client.users.fetch({
-  user: '1253316035878375424'
-});
+const user = await client.users.fetch('1253316035878375424');
 ```
 
 ### Fetch by user resolvable
 
-You can also pass a [`UserResolvable`](https://twitter.js.org/modules.html#UserResolvable) to the fetch method and twitter.js will automatically resolve the user id from it to fetch the required user:
+You can also pass a [`UserResolvable`](https://twitter.js.org/modules.html#UserResolvable) to the fetch method and twitter.js will automatically resolve the user to fetch:
 
 ```js:no-line-numbers
-const user = await client.users.fetch({
-  user: <UserResolvable> // It can be a Tweet, SimplifiedTweet, or any other UserResolvable
-});
+const user = await client.users.fetch(UserResolvable);
+// It can be a User, SimplifiedUser, Tweet or any other valid UserResolvable
