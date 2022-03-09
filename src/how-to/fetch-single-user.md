@@ -25,3 +25,4 @@ You can also pass a [`UserResolvable`](https://twitter.js.org/modules.html#UserR
 ```js:no-line-numbers
 const user = await client.users.fetch(UserResolvable);
 // It can be a User, SimplifiedUser, Tweet or any other valid UserResolvable
+```

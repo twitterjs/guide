@@ -4,7 +4,8 @@
   "author": "Shubham Parihar <shubhamparihar391@gmail.com>",
   "description": "The official guide for twitter.js library",
   "scripts": {
-    "dev": "vuepress dev src",
+    "dev": "vuepress dev src --port 6969",
+    "dev:open": "vuepress dev src --port 6969 --open",
     "build": "vuepress build src"
   },
   "devDependencies": {

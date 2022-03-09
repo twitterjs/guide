@@ -50,7 +50,9 @@ export default defineUserConfig<DefaultThemeOptions, ViteBundlerOptions>({
       ],
       '/how-to/': [
         '/how-to/fetch-single-user',
+        '/how-to/fetch-multiple-users',
         '/how-to/fetch-single-tweet',
+        '/how-to/fetch-multiple-tweets'
       ]
     }
   }
