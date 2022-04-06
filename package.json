@@ -10,7 +10,7 @@
   },
   "devDependencies": {
     "typescript": "^4.6.2",
-    "vuepress": "^2.0.0-beta.36"
+    "vuepress": "^2.0.0-beta.38"
   },
   "keywords": [
     "api",
